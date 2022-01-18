@@ -13,12 +13,8 @@ import ErrorNotFound from './ErrorNotFound';
 export default function RoutesApp() {
     return (
         <Routes>
-            <Route exact path="/">
-                <Calendar />
-            </Route>
-            <Route path="*">
-                <ErrorNotFound />
-            </Route>
+            <Route exact path="/" element={<Calendar />} />
+            <Route path="*" element={<ErrorNotFound />}/>
         </Routes>
     )
 }

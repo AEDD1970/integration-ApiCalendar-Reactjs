@@ -1,4 +1,6 @@
 import React from 'react'
+import pagesNofound from '../../Assets/notfound.PNG'
+import styles from "./errorNotFound.module.scss"
 
 export default function ErrorNotFound() {
     return (
@@ -7,7 +9,7 @@ export default function ErrorNotFound() {
         }}>
             <div className={styles.errorsMessage}>
                 <h1 color='primary'>¡Lo sentimos!</h1>
-                <p><b>{message}</b></p>
+                <p><b>Pagina no encontrada</b></p>
                 <img src={pagesNofound} alt="notFound" />
             </div>
         </div>

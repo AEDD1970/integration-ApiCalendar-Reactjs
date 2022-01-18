@@ -1,0 +1,22 @@
+.errorsMessage {
+    background-color: $backgroundLight !important;
+    width: 300px !important;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-family: "Sora Bold";
+      font-size: 25px;
+      color: $primary;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
